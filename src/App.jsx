@@ -1,22 +1,15 @@
 
-import Accordion from './components/ButtonAccordion'
-import ButtonAccordions from './components/ButtonAccordion/ButtonAccordions'
-import ButtonMultipleAccordion from './components/ButtonAccordion/ButtonMultipleAccordion'
-import LikeButton from './components/LikeButton/LikeButton'
-import SlideWithThumb from './components/SlideWithThumb/SlideWithThumb'
-import ButtonTabs from './components/tab/ButtonTab'
-import LabTabs from './components/tab/tab'
+import { Route, Routes } from 'react-router-dom'
+import Day1 from './components/day1'
+import Day2 from './components/day2'
 
 function App() {
 
   return (
-      <div>
-        <LikeButton/>
-       <ButtonTabs/>
-       <SlideWithThumb/>
-       <Accordion/>
-
-    </div>
+      <Routes>
+      <Route path="/day1" element={<Day1 />} />
+      <Route path="/day2" element={<Day2 />} />
+    </Routes>
   )
 }
 

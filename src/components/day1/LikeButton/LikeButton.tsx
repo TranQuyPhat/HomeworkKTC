@@ -8,7 +8,6 @@ function LikeButton() {
 
   return (
     <div>
-        <h1>Like Button</h1>
       <FontAwesomeIcon size='2x'
         icon={like ? faThumbsUpSolid : faThumbsUpRegular}
         onClick={() => setLike(!like)}
