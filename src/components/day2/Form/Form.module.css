@@ -1,0 +1,52 @@
+.formContainer {
+  max-width: 400px;
+  margin: auto;
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inputGroup {
+  margin-bottom: 16px;
+}
+
+.label {
+  font-weight: 500;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inputError {
+  border-color: red;
+}
+
+.errorText {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+.submitButton {
+  background-color: #000000;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:disabled {
+  background-color: #4b4c52;
+  cursor: not-allowed;
+}

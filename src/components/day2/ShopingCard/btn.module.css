@@ -1,0 +1,16 @@
+.btncart{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: orange;
+    
+}
+.btncart:hover{
+    background: #c15c2d;
+}

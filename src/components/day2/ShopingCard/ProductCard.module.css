@@ -1,0 +1,86 @@
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 20px 16px;
+    width: 220px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    border: 1px solid #333;
+}
+.card:hover {
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+.image {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+.name {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #222;
+    text-align: center;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 2.6em;
+}
+.price {
+    color: #218838;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    border: 2px solid #218838;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    background: #fff;
+}
+.btn {
+    background: none;
+    border: none;
+    color: #218838;
+    width: 40px;
+    height: 40px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:first-child {
+    border-right: 1px solid #218838;
+}
+
+.btn:last-child {
+    border-left: 1px solid #218838;
+}
+.btn:hover {
+    background: #e6f4ea;
+}
+.controls span {
+    font-size: 1.1rem;
+    min-width: 24px;
+    text-align: center;
+    font-weight: 500;
+}

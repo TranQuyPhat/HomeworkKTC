@@ -1,0 +1,27 @@
+    .inputGroup {
+    margin-bottom: 16px;
+    }
+
+    .label {
+    font-weight: 500;
+    margin-bottom: 4px;
+    display: block;
+    }
+
+    .input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+
+    .inputError {
+    border-color: red;
+    }
+
+    .errorText {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 4px;
+    }
